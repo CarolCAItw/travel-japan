@@ -20,7 +20,7 @@ const Banner = () => {
             </Link>
           </div>
           <div className="carousel-item" data-bs-interval="5000">
-            <Link to="#sales">
+            <Link to="/travel-japan/#sales">
               <img
                 src="https://carolblogtw.com/wp-content/uploads/2022/07/homepage_2_2.jpg"
                 className="d-block w-100"
