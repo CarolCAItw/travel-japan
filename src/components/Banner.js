@@ -10,7 +10,7 @@ const Banner = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="5000">
-            <a href="/kanto" target="_blank">
+            <a href="/travel-japan/kanto" target="_blank">
               <img
                 src="https://carolblogtw.com/wp-content/uploads/2022/07/homepage_1_2.jpg"
                 className="d-block w-100"
@@ -28,7 +28,7 @@ const Banner = () => {
             </a>
           </div>
           <div className="carousel-item" data-bs-interval="5000">
-            <a href="/kanto" target="_blank">
+            <a href="/travel-japan/kanto" target="_blank">
               <img
                 src="https://carolblogtw.com/wp-content/uploads/2022/07/homepage_3_2.jpg"
                 className="d-block w-100"
