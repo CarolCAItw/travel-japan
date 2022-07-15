@@ -1,0 +1,21 @@
+@import "./reset";
+@import "./base";
+@import "./nav";
+@import "./banner";
+@import "./goods";
+@import "./homepage";
+@import "./about";
+@import "./carts";
+@import "./footer";
+
+a {
+  text-decoration: none;
+}
+
+.df {
+  display: flex;
+}
+
+.m0 {
+  margin: 0 auto;
+}

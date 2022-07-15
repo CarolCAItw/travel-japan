@@ -1,0 +1,17 @@
+.carousel {
+  position: center;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100vw;
+  height: 25vw;
+}
+
+@media screen and (max-width: 550px) {
+  .carousel-inner {
+    position: relative;
+    width: 100vw;
+    height: auto;
+  }
+}

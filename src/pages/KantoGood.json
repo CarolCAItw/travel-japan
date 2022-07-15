@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "東京市區徒步半日遊",
+    "price": 888,
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kanto_goods.jpg",
+    "tag": "最熱賣",
+    "amount": 1
+  },
+  {
+    "id": 2,
+    "title": "東京必訪景點一日遊",
+    "price": 1399,
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kanto_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 3,
+    "title": "東京近郊川越一日遊",
+    "price": 1223,
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kanto_goods.jpg",
+    "tag": "特價中",
+    "amount": 1
+  },
+  {
+    "id": 4,
+    "title": "東京人力車半日遊",
+    "price": 234,
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kanto_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 5,
+    "title": "富士山一日遊",
+    "price": 1988,
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kanto_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 6,
+    "title": "東京迪士尼一日遊",
+    "price": 1200,
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kanto_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  }
+]

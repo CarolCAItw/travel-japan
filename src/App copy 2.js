@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Nav from "./components/Nav";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
@@ -28,14 +28,7 @@ const App = () => {
 
     if (arr[ind].amount === 0) arr[ind].amount = 1;
     setCart([...arr]);
-
-    if (arr[ind].amount > 10) {
-      alert("超過10人團體，請洽客服！");
-      arr[ind].amount -= d;
-    }
   };
-
-  useEffect(() => {});
 
   return (
     <div className="App">

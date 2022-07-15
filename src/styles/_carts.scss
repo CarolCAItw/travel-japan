@@ -1,0 +1,120 @@
+.carts-main {
+  width: 80%;
+  margin: auto;
+  h2 {
+    margin-top: 1rem;
+  }
+  .cart_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid skyblue;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .cart_img {
+    display: flex;
+    // width: 400px;
+    p {
+      width: 40vw;
+      font-weight: bold;
+      margin-left: 10px;
+      padding-left: 3rem;
+      line-height: 3.5rem;
+    }
+  }
+  button {
+    border: 0px solid #fff;
+    background-color: $site-color;
+    color: #fff;
+  }
+  .incre-decre button {
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  .price-remove {
+    justify-content: end;
+    width: 16vw;
+    .remove {
+      padding: 5px 10px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      border: none;
+      outline: none;
+      color: white;
+      background-color: skyblue;
+      border-radius: 8px;
+      cursor: pointer;
+      &:hover {
+        background-color: darkseagreen;
+      }
+    }
+  }
+
+  .price {
+    background-color: lightgreen;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  .total {
+    margin: 3rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    .total-word {
+      font-size: 2rem;
+      color: skyblue;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .total-price {
+      font-size: 2rem;
+      color: $site-color;
+      font-weight: bold;
+    }
+    button {
+      border-radius: 8px;
+      width: 80px;
+    }
+  }
+}
+
+.modal-body {
+  table {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .carts-main {
+    .cart_box {
+      flex-wrap: wrap;
+      .cart_img {
+        align-items: center;
+        p {
+          font-weight: bold;
+          line-height: 2rem;
+          margin: 0px;
+          padding-left: 10px;
+        }
+      }
+    }
+    .incre-decre {
+      padding-top: 1rem;
+    }
+    .price-remove {
+      padding-top: 2rem;
+      width: 100%;
+    }
+  }
+}

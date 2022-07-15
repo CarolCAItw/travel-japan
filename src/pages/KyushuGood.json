@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "沖繩市區一日遊",
+    "price": "888",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kyushu_goods.jpg",
+    "tag": "最熱賣",
+    "amount": 1
+  },
+  {
+    "id": 2,
+    "title": "岡山市區一日遊",
+    "price": "999",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kyushu_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 3,
+    "title": "沖繩中北部一日遊",
+    "price": "1223",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kyushu_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 4,
+    "title": "深度北九州之旅",
+    "price": "666",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kyushu_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 5,
+    "title": "別府泡湯遊程",
+    "price": "888",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kyushu_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 6,
+    "title": "來去熊本找熊本熊",
+    "price": "777",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/kyushu_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  }
+]

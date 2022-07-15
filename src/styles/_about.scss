@@ -1,0 +1,64 @@
+.about {
+  padding: 1rem;
+  .box-m {
+    display: none;
+  }
+  .about-box {
+    justify-content: space-between;
+    padding: 1.5rem;
+    padding-bottom: 1.5rem;
+    .zoomIn {
+      width: 40vw;
+      .about-img {
+        overflow: hidden;
+      }
+      img {
+        max-width: 100%;
+        &:hover {
+          transform: scale(1.2);
+          transition: 0.4s ease-in-out;
+        }
+      }
+    }
+  }
+  .about-word {
+    width: 35vw;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 1rem;
+    p {
+      line-height: 1.8rem;
+      padding-bottom: 1rem;
+    }
+    button {
+      width: 90px;
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .about {
+    padding: 1rem;
+    .box-m {
+      display: block !important;
+    }
+    .box-c {
+      display: none !important;
+    }
+    .about-box {
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: 0rem;
+      .zoomIn {
+        .about-img {
+          width: 75vw;
+        }
+      }
+      .about-word {
+        width: 75vw;
+        text-align: center;
+        padding: 1rem 1rem;
+      }
+    }
+  }
+}

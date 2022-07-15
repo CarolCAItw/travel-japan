@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "札幌市區一日遊",
+    "price": "888",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/hokkaido_goods.jpg",
+    "tag": "最熱賣",
+    "amount": 1
+  },
+  {
+    "id": 2,
+    "title": "深入魅力小樽一日遊",
+    "price": "999",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/hokkaido_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 3,
+    "title": "富野良賞花一日遊",
+    "price": "1223",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/hokkaido_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 4,
+    "title": "冬天限定！白金青池",
+    "price": "1288",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/hokkaido_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 5,
+    "title": "函館泡湯一日遊",
+    "price": "1288",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/hokkaido_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  },
+  {
+    "id": 6,
+    "title": "深入走訪支笏洞",
+    "price": "777",
+    "img": "https://carolblogtw.com/wp-content/uploads/2022/07/hokkaido_goods.jpg",
+    "tag": "本日精選",
+    "amount": 1
+  }
+]

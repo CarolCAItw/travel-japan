@@ -1,0 +1,42 @@
+$site-color: rgb(45, 141, 136);
+
+h2 {
+  color: $site-color;
+  font-size: 2rem !important;
+  padding: 1rem !important;
+  text-align: center;
+}
+
+h3 {
+  color: $site-color;
+  font-size: 1.5rem !important;
+  padding: 1rem !important;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem !important;
+  color: rgb(48, 48, 48);
+}
+
+.btn-sales {
+  background-color: white;
+  border: 1px solid $site-color;
+  border-radius: 16px;
+  color: $site-color;
+  padding: 1rem;
+  &:hover {
+    background-color: $site-color;
+    color: white;
+  }
+}
+
+.btn-carts {
+  font-size: 1.2rem;
+  color: white;
+  background-color: $site-color;
+  border: 1px solid $site-color;
+  &:hover {
+    color: rgb(128, 170, 168);
+  }
+}
