@@ -42,8 +42,7 @@ const App = () => {
       <Nav setShow={setShow} size={cart.length} />
       <Banner />
       <Routes>
-<<<<<<< HEAD
-        <Route path="/travel-japan" element={<Homepage />} />
+        <Route path="/travel-japan/" element={<Homepage />} />
         <Route path="/travel-japan/about" element={<About />} />
         <Route
           path="/travel-japan/kanto"
@@ -62,18 +61,6 @@ const App = () => {
           element={<Kyushu handleClick={handleClick} />}
         />
         <Route
-=======
-        <Route path="/travel-japan/" element={<Homepage />} />
-        <Route path="/travel-japan/about" element={<About />} />
-        <Route path="/travel-japan/kanto" element={<Kanto handleClick={handleClick} />} />
-        <Route path="/travel-japan/kansai" element={<Kansai handleClick={handleClick} />} />
-        <Route
-          path="/travel-japan/hokkaido"
-          element={<Hokkaido handleClick={handleClick} />}
-        />
-        <Route path="/travel-japan/kyushu" element={<Kyushu handleClick={handleClick} />} />
-        <Route
->>>>>>> 64a89310753a5f62b658084e810eba93b963800d
           path="/travel-japan/carts"
           element={
             <Carts cart={cart} setCart={setCart} handleChange={handleChange} />
