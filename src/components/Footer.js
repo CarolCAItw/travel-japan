@@ -15,16 +15,16 @@ const Footer = () => {
       <div className="menu">
         <ul>
           <li>
-            <Link to="/">首頁</Link>
+            <Link to="/travel-japan/">首頁</Link>
           </li>
           <li>
-            <Link to="/about">關於我們</Link>
+            <Link to="/travel-japan/about">關於我們</Link>
           </li>
           <li>
-            <Link to="/kanto">全部商品</Link>
+            <Link to="/travel-japan/kanto">全部商品</Link>
           </li>
           <li>
-            <Link to="/carts">購物車</Link>
+            <Link to="/travel-japan/carts">購物車</Link>
           </li>
         </ul>
       </div>
