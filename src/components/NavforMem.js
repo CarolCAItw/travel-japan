@@ -18,7 +18,7 @@ const NavforMem = (props) => {
         <ul className="df">
           {!currentUser && (
             <li>
-              <Link to="/travel-japan/login">登入</Link>
+              <Link to="/travel-japan/login">會員登入／註冊</Link>
             </li>
           )}
           {currentUser && (
