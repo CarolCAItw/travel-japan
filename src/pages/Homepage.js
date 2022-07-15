@@ -11,7 +11,7 @@ const Homepage = () => {
           全館購買5個行程（不限地區），其中1個讓
           <span>深入日本</span>招待！
         </p>
-        <Link to="/travel-japan/kanto" className="btn-sales">
+        <Link to="/travel-japan/kanto/" className="btn-sales">
           前往探索
         </Link>
       </div>
