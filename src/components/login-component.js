@@ -40,7 +40,7 @@ const LoginComponent = (props) => {
           </div>
         )}
         <div className="form-group">
-          <label htmlFor="username">Email</label>
+          <label htmlFor="username">電子郵件</label>
           <input
             onChange={handleChangeEmail}
             type="text"
@@ -50,7 +50,7 @@ const LoginComponent = (props) => {
         </div>
         <br />
         <div className="form-group">
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">密碼</label>
           <input
             onChange={handleChangePassword}
             type="password"

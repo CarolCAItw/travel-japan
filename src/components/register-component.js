@@ -35,7 +35,7 @@ const RegisterComponent = () => {
       <div>
         {message && <div className="alert alert-danger">{message}</div>}
         <div>
-          <label htmlFor="username">Username</label>
+          <label htmlFor="username">使用者名稱</label>
           <input
             onChange={handleChangeUsername}
             type="text"
@@ -45,7 +45,7 @@ const RegisterComponent = () => {
         </div>
         <br />
         <div className="form-group">
-          <label htmlFor="email">email</label>
+          <label htmlFor="email">電子郵件</label>
           <input
             onChange={handleChangeEmail}
             type="text"
@@ -55,7 +55,7 @@ const RegisterComponent = () => {
         </div>
         <br />
         <div className="form-group">
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">密碼</label>
           <input
             onChange={handleChangePassword}
             type="password"
