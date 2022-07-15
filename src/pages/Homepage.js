@@ -31,7 +31,7 @@ const Homepage = () => {
             <p>
               關東地方是指日本本州中部偏東瀕太平洋的地區，由茨城縣、栃木縣、群馬縣、埼玉縣、千葉縣、東京都、神奈川縣所構成，有時還會加上山梨縣。其以東京為中心，居住人口超過4千3百萬，聚集超過日本三分之一的人口。
             </p>
-            <a href="/travel-japan/kanto" className="btn-sales">
+            <a href="/kanto" className="btn-sales">
               前往探索
             </a>
           </div>
