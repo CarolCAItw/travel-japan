@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -10,31 +11,31 @@ const Banner = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="5000">
-            <a href="/travel-japan/kanto" target="_blank">
+            <Link to="/travel-japan/kanto" target="_blank">
               <img
                 src="https://carolblogtw.com/wp-content/uploads/2022/07/homepage_1_2.jpg"
                 className="d-block w-100"
                 alt="深入日本"
               />
-            </a>
+            </Link>
           </div>
           <div className="carousel-item" data-bs-interval="5000">
-            <a href="#sales">
+            <Link to="#sales">
               <img
                 src="https://carolblogtw.com/wp-content/uploads/2022/07/homepage_2_2.jpg"
                 className="d-block w-100"
                 alt="開幕優惠"
               />
-            </a>
+            </Link>
           </div>
           <div className="carousel-item" data-bs-interval="5000">
-            <a href="/travel-japan/kanto" target="_blank">
+            <Link to="/travel-japan/kanto" target="_blank">
               <img
                 src="https://carolblogtw.com/wp-content/uploads/2022/07/homepage_3_2.jpg"
                 className="d-block w-100"
                 alt="行程費用"
               />
-            </a>
+            </Link>
           </div>
         </div>
         <button
