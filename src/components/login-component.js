@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router";
 import AuthService from "../services/auth.service";
 
 const LoginComponent = (props) => {
@@ -67,7 +67,7 @@ const LoginComponent = (props) => {
         <br />
         <br />
         <span>
-          還不是會員嗎？<a href="/travel-japan/register">點此前往註冊</a>
+          還不是會員嗎？<Link to="/travel-japan/register">點此前往註冊</Link>
         </span>
       </div>
     </div>
