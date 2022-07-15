@@ -15,18 +15,18 @@ const Nav = ({ setShow, size }) => {
       <div className="menu">
         <ul className="df">
           <li>
-            <Link to="/">首頁</Link>
+            <Link to="/travel-japan/">首頁</Link>
           </li>
           <li>
-            <Link to="/about">關於我們</Link>
+            <Link to="/travel-japan/about">關於我們</Link>
           </li>
           <li>
-            <Link to="/kanto" onClick={() => setShow(true)}>
+            <Link to="/travel-japan/kanto" onClick={() => setShow(true)}>
               全部商品
             </Link>
           </li>
           <li>
-            <Link to="/carts" onClick={() => setShow(false)}>
+            <Link to="/travel-japan/carts" onClick={() => setShow(false)}>
               購物車
               <span className="cart-num"> {size}</span>
             </Link>
