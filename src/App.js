@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
@@ -9,10 +10,14 @@ import Kanto from "./pages/Kanto";
 import Kansai from "./pages/Kansai";
 import Hokkaido from "./pages/Hokkaido";
 import Kyushu from "./pages/Kyushu";
-import { Routes, Route } from "react-router-dom";
+import Member from "./pages/member";
+import RegisterComponent from "./components/register-component";
+import LoginComponent from "./components/login-component";
+import AuthService from "./services/auth.service";
 import "./styles/style.css";
 
 const App = () => {
+  const [currentUser, setCurrentUser] = useState(AuthService.getCurrentUser());
   const [show, setShow] = useState(true);
   const [cart, setCart] = useState([]);
 
@@ -39,7 +44,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <Nav setShow={setShow} size={cart.length} />
+      <Nav
+        currentUser={currentUser}
+        setCurrentUser={setCurrentUser}
+        setShow={setShow}
+        size={cart.length}
+      />
       <Banner />
       <Routes>
         <Route path="/travel-japan/" element={<Homepage />} />
@@ -64,6 +74,22 @@ const App = () => {
           path="/travel-japan/carts"
           element={
             <Carts cart={cart} setCart={setCart} handleChange={handleChange} />
+          }
+        />
+        <Route path="/travel-japan/register" element={<RegisterComponent />} />
+        <Route
+          path="/travel-japan/login"
+          element={
+            <LoginComponent
+              currentUser={currentUser}
+              setCurrentUser={setCurrentUser}
+            />
+          }
+        />
+        <Route
+          path="/travel-japan/member"
+          element={
+            <Member currentUser={currentUser} setCurrentUser={setCurrentUser} />
           }
         />
       </Routes>

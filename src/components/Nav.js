@@ -1,7 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+// import { Form } from "reactstrap";
+import AuthService from "../services/auth.service";
 
-const Nav = ({ setShow, size }) => {
+const Nav = ({ setShow, size }, props) => {
+  const { currentUser, setCurrentUser } = props;
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    AuthService.logout();
+    window.alert("登入成功！將前往首頁");
+    setCurrentUser(null);
+    navigate("/travel-japan/");
+  };
   return (
     <nav className="all df">
       <div className="logo df">
@@ -31,6 +41,23 @@ const Nav = ({ setShow, size }) => {
               <span className="cart-num"> {size}</span>
             </Link>
           </li>
+          {!currentUser && (
+            <li>
+              <Link to="/travel-japan/login">登入</Link>
+            </li>
+          )}
+          {currentUser && (
+            <li>
+              <Link to="/travel-japan/member">會員中心</Link>
+            </li>
+          )}
+          {currentUser && (
+            <li>
+              <Link onClick={handleLogout} to="#">
+                登出
+              </Link>
+            </li>
+          )}
         </ul>
       </div>
     </nav>

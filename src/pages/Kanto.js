@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import KantoGood from "./KantoGood.json";
 import Cards from "./Cards";
 
-const goods = ({ tag, handleClick }) => {
+const goods = ({ handleClick }) => {
   return (
     <div className="goods">
       <h2>商品列表</h2>

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router";
+import OrderService from "../services/order.service";
 
 const Carts = ({ cart, setCart, handleChange }) => {
   const [price, setPrice] = useState(0);
@@ -14,10 +16,15 @@ const Carts = ({ cart, setCart, handleChange }) => {
     cart.map((item) => (ans += item.amount * item.price));
     setPrice(ans);
   };
-
   useEffect(() => {
     handlePrice();
   });
+  const navigate = useNavigate();
+  const OrderPush = () => {
+    OrderService.post();
+    window.alert("訂單提交成功！");
+    navigate("/travel-japan/member/");
+  };
   return (
     <div className="carts-main">
       <h2>購物車內容</h2>
@@ -95,7 +102,12 @@ const Carts = ({ cart, setCart, handleChange }) => {
               >
                 繼續購物
               </button>
-              <button type="button" class="btn btn-secondary">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+                onClick={OrderPush}
+              >
                 前往結帳
               </button>
             </div>
