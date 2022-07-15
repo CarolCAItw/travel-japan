@@ -91,7 +91,7 @@ const Homepage = () => {
               北海道是日本最北的一級行政區，亦是日本現時唯一以「道」為名的行政區劃，首府為札幌市。全境包含數個北方島嶼，面積共83423.84平方公里，是日本面積最大的一級行政區。
             </p>
             <Link to="/travel-japan/hokkaido" className="btn-sales">
-              深入北海道
+              前往探索
             </Link>
           </div>
         </div>
