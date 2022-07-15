@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer">
       <div className="logo df">
         {" "}
-        <Link to="/">深入日本</Link>
+        <Link to="/travel-japan/">深入日本</Link>
         <img
           src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/344/external-sakura-chinese-new-year-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"
           alt="logo"
