@@ -11,7 +11,7 @@ const Banner = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="5000">
-            <Link to="/travel-japan/kanto" target="_blank">
+            <Link to="/travel-japan/kanto">
               <img
                 src="https://carolblogtw.com/wp-content/uploads/2022/07/homepage_1_2.jpg"
                 className="d-block w-100"
