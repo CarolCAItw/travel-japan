@@ -11,9 +11,9 @@ const Homepage = () => {
           全館購買5個行程（不限地區），其中1個讓
           <span>深入日本</span>招待！
         </p>
-        <a href="/travel-japan/kanto" className="btn-sales">
-          前往探索
-        </a>
+        <Link to="/travel-japan/kanto" className="btn-sales">
+              前往探索
+            </Link>
       </div>
 
       <div className="container m0">
@@ -43,7 +43,11 @@ const Homepage = () => {
             <p>
               近畿地方又稱為關西地方，是日本本州中西部的一個地理區域，由京都府、大阪府、滋賀縣、兵庫縣、奈良縣、和歌山縣、三重縣等二府五縣構成。
             </p>
+<<<<<<< HEAD
             <Link to="/travel-japan/kanto" className="btn-sales">
+=======
+            <Link to="/travel-japan/kansai" className="btn-sales">
+>>>>>>> 8f8e64fa2428cc5c4902fe92f5dd2131f769bea7
               深入關西
             </Link>
           </div>
@@ -71,7 +75,11 @@ const Homepage = () => {
               近畿地方又稱為關西地方，是日本本州中西部的一個地理區域，由京都府、大阪府、滋賀縣、兵庫縣、奈良縣、和歌山縣、三重縣等二府五縣構成。
             </p>
             <Link to="/travel-japan/kansai" className="btn-sales">
+<<<<<<< HEAD
               深入關西
+=======
+              深入關東
+>>>>>>> 8f8e64fa2428cc5c4902fe92f5dd2131f769bea7
             </Link>
           </div>
         </div>
@@ -90,7 +98,11 @@ const Homepage = () => {
               北海道是日本最北的一級行政區，亦是日本現時唯一以「道」為名的行政區劃，首府為札幌市。全境包含數個北方島嶼，面積共83423.84平方公里，是日本面積最大的一級行政區。
             </p>
             <Link to="/travel-japan/hokkaido" className="btn-sales">
+<<<<<<< HEAD
               深入北海
+=======
+              深入北海道
+>>>>>>> 8f8e64fa2428cc5c4902fe92f5dd2131f769bea7
             </Link>
           </div>
         </div>
