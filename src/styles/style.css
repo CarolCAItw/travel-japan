@@ -232,10 +232,10 @@ p {
 }
 
 .all .menu ul li .cart-num {
-  font-size: 0.2rem !important;
+  font-size: 0.8rem;
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 770px) {
   .all {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -255,13 +255,16 @@ p {
     margin-right: 0px;
   }
   .all .menu ul li {
-    padding: 0rem 1.8rem;
+    padding: 0rem 0.5rem;
+  }
+  .all .menu ul li span {
+    font-size: 1rem !important;
   }
 }
 
 @media screen and (max-width: 400px) {
   .all .menu ul li {
-    padding: 0rem 1.4rem;
+    padding: 0rem 1rem;
   }
 }
 

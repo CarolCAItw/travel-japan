@@ -36,14 +36,14 @@
           color: rgb(128, 170, 168);
         }
         .cart-num {
-          font-size: 0.2rem !important;
+          font-size: 0.8rem;
         }
       }
     }
   }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 770px) {
   .all {
     display: flex;
     flex-direction: column;
@@ -56,7 +56,10 @@
         margin-right: 0px;
 
         li {
-          padding: 0rem 1.8rem;
+          padding: 0rem 0.5rem;
+          span {
+            font-size: 1rem !important;
+          }
         }
       }
     }
@@ -68,7 +71,7 @@
     .menu {
       ul {
         li {
-          padding: 0rem 1.4rem;
+          padding: 0rem 1rem;
         }
       }
     }
