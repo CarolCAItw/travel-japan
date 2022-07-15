@@ -12,16 +12,16 @@ const goods = ({ handleClick }) => {
           <ul>
             <li className="li2">地區</li>
             <li className="li4">
-              <Link to="/kanto">關東</Link>
+              <Link to="/travel-japan/kanto">關東</Link>
             </li>
             <li className="active">
-              <Link to="/kansai">關西</Link>
+              <Link to="/travel-japan/kansai">關西</Link>
             </li>
             <li className="li4">
-              <Link to="/hokkaido">北海道</Link>
+              <Link to="/travel-japan/hokkaido">北海道</Link>
             </li>
             <li className="li4">
-              <Link to="/kyushu">九州</Link>
+              <Link to="/travel-japan/kyushu">九州</Link>
             </li>
           </ul>
         </div>
