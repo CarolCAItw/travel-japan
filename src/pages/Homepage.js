@@ -10,9 +10,9 @@ const Homepage = () => {
           全館購買5個行程（不限地區），其中1個讓
           <span>深入日本</span>招待！
         </p>
-        <a href="/travel-japan/kanto" className="btn-sales">
-          前往探索
-        </a>
+        <Link to="/travel-japan/kanto" className="btn-sales">
+              前往探索
+            </Link>
       </div>
 
       <div className="container m0">
@@ -31,9 +31,9 @@ const Homepage = () => {
             <p>
               關東地方是指日本本州中部偏東瀕太平洋的地區，由茨城縣、栃木縣、群馬縣、埼玉縣、千葉縣、東京都、神奈川縣所構成，有時還會加上山梨縣。其以東京為中心，居住人口超過4千3百萬，聚集超過日本三分之一的人口。
             </p>
-            <a href="/travel-japan/kanto" className="btn-sales">
-              前往探索
-            </a>
+            <Link to="/travel-japan/kanto" className="btn-sales">
+              深入關東
+            </Link>
           </div>
         </div>
         <div className="container-box box2 df">
@@ -42,9 +42,9 @@ const Homepage = () => {
             <p>
               近畿地方又稱為關西地方，是日本本州中西部的一個地理區域，由京都府、大阪府、滋賀縣、兵庫縣、奈良縣、和歌山縣、三重縣等二府五縣構成。
             </p>
-            <a href="/travel-japan/kanto" className="btn-sales">
-              前往探索
-            </a>
+            <Link to="/travel-japan/kansai" className="btn-sales">
+              深入關西
+            </Link>
           </div>
           <div className="zoomIn">
             <div className="container-img">
@@ -69,9 +69,9 @@ const Homepage = () => {
             <p>
               近畿地方又稱為關西地方，是日本本州中西部的一個地理區域，由京都府、大阪府、滋賀縣、兵庫縣、奈良縣、和歌山縣、三重縣等二府五縣構成。
             </p>
-            <a href="/travel-japan/kansai" className="btn-sales">
-              前往探索
-            </a>
+            <Link to="/travel-japan/kansai" className="btn-sales">
+              深入關東
+            </Link>
           </div>
         </div>
         <div className="container-box box3 df">
@@ -88,9 +88,9 @@ const Homepage = () => {
             <p>
               北海道是日本最北的一級行政區，亦是日本現時唯一以「道」為名的行政區劃，首府為札幌市。全境包含數個北方島嶼，面積共83423.84平方公里，是日本面積最大的一級行政區。
             </p>
-            <a href="/travel-japan/hokkaido" className="btn-sales">
-              前往探索
-            </a>
+            <Link to="/travel-japan/hokkaido" className="btn-sales">
+              深入北海道
+            </Link>
           </div>
         </div>
       </div>
