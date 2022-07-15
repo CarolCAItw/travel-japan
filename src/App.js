@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
+import NavforMem from "./components/NavforMem";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Homepage from "./pages/Homepage";
@@ -44,12 +45,14 @@ const App = () => {
 
   return (
     <div className="App">
+      <NavforMem currentUser={currentUser} setCurrentUser={setCurrentUser} />
       <Nav
         currentUser={currentUser}
         setCurrentUser={setCurrentUser}
         setShow={setShow}
         size={cart.length}
       />
+
       <Banner />
       <Routes>
         <Route path="/travel-japan/" element={<Homepage />} />

@@ -22,7 +22,7 @@ const LoginComponent = (props) => {
           localStorage.setItem("user", JSON.stringify(response.data));
         }
         setCurrentUser(AuthService.getCurrentUser());
-        window.alert("登出成功！將前往首頁");
+        window.alert("登入成功！將前往首頁");
         navigate("/travel-japan/");
       })
       .catch((error) => {

@@ -114,6 +114,67 @@ const Carts = ({ cart, setCart, handleChange }) => {
           </div>
         </div>
       </div>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        x
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                確認結帳
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              請再次確認行程與數量是否正確！
+              <table>
+                <tr>
+                  <th width="35%" height="30px">
+                    行程
+                  </th>
+                  <th width="10%">人數</th>
+                  <th width="15%">單價</th>
+                </tr>
+                {cart.map((item) => (
+                  <tr>
+                    <td height="30px"> {item.title}</td>
+                    <td height="30px"> {item.amount} 人</td>
+                    <td height="30px">NT$ {item.price}</td>
+                  </tr>
+                ))}
+              </table>
+              <p>總價：NT$ {price}</p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                繼續購物
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+                onClick={OrderPush}
+              >
+                前往結帳
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
